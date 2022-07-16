@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+
+}
+
+h1{
+    color:white;
+    font-size:45px;
+    background-color:orangered;
+    
+}
+
+#show_sketch{
+    float:right;
+    font-size:25;
+     
+}
+
+p{
+    font-size:25;
+    color:white;
+    padding:10px;
+}
+canvas{
+    border:5px,solid, white;
+    border-radius:20px;
+    animation-name:shadow;
+    animation-duration:7s;
+    margin-top:100px;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes shadow{
+    from{box-shadow:1px 1px 105px orange;};
+    to{box-shadow: 1px 1px 100px red;};
+}
+
+#slider{
+    float:left;
+    padding:50px;
+    margin-top:0px;
+    position:absolute;
+    
+
+}
+#clear{
+    float:center;
+    margin-left:-260px
+    
+}
+#button{
+    float:center;
+    width:10%;
+
+
+}
+#clear{
+    margin-left:8px;
+    position:relative;
+}
+#score_span{
+    float:right;
+    padding:20px;
+    margin-top:-260px;
+}
+#confidence{
+    margin-left:0px;
+    
+}
+#target{
+    margin-left:160px;
+}
+span{
+    font-size:25;
+    color:white;
+    
+}
+.div_button{
+    float:center;
+    
+}
+
+#timer_span{
+    float:left;
+    padding:10px;
+}
